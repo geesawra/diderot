@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/anthropics/anthropic-sdk-go"
+	"github.com/anthropics/anthropic-sdk-go/v2"
 	"github.com/cloudwego/eino-ext/components/model/agenticclaude"
 	"github.com/cloudwego/eino-ext/components/model/agenticopenai"
 	"github.com/cloudwego/eino/components/model"

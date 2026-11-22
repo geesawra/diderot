@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/anthropics/anthropic-sdk-go"
+	"github.com/anthropics/anthropic-sdk-go/v2"
 	"github.com/stretchr/testify/require"
 
 	"github.com/bluesky-social/diderot/internal/promptcatalog"

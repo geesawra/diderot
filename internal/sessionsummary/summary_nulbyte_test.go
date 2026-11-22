@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/anthropics/anthropic-sdk-go"
+	"github.com/anthropics/anthropic-sdk-go/v2"
 )
 
 // A model's tool input is JSON, where "\u0000" decodes to a NUL byte.

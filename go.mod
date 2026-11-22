@@ -4,7 +4,7 @@ go 1.27.4
 
 require (
 	ariga.io/atlas-go-sdk v0.7.2
-	github.com/anthropics/anthropic-sdk-go v1.84.0
+	github.com/anthropics/anthropic-sdk-go/v2 v2.12.0
 	github.com/aws/aws-sdk-go-v2 v1.48.0
 	github.com/aws/aws-sdk-go-v2/config v1.33.18
 	github.com/aws/aws-sdk-go-v2/credentials v1.21.0
@@ -66,6 +66,7 @@ require (
 	github.com/STARRY-S/zip v0.2.3 // indirect
 	github.com/agext/levenshtein v1.2.3 // indirect
 	github.com/andybalholm/brotli v1.3.0 // indirect
+	github.com/anthropics/anthropic-sdk-go v1.56.0 // indirect
 	github.com/apparentlymart/go-textseg/v15 v15.0.0 // indirect
 	github.com/apparentlymart/go-textseg/v17 v17.0.1 // indirect
 	github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream v1.7.27 // indirect
