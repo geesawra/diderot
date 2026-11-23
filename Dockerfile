@@ -29,7 +29,7 @@ RUN --mount=type=cache,target=/go/pkg/mod --mount=type=cache,target=/root/.cache
 # The atlas CLI's community edition, Apache-2.0 like the rest of the image.
 # The default atlas build is under Ariga's commercial terms, which do not
 # allow redistributing it.
-FROM docker.io/arigaio/atlas:1.4.0-community-alpine@sha256:5b8a814aca5952948f8fcdc8db695a45f9c7a8e97bbac8e3e9ca8b33ceabb723 AS atlas
+FROM docker.io/arigaio/atlas:1.4.1-community-alpine@sha256:16c7215ff8ea5a1c356437f99856b7ccf244959f1f4373fa8702639f573b13ef AS atlas
 
 FROM gcr.io/distroless/static-debian12:nonroot@sha256:afa5c872c891853ca7fcf1f12c3edb23f7eeef36189728842dd51042ff57f7ab
 ARG VERSION=dev
