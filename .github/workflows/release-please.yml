@@ -261,7 +261,7 @@ jobs:
       # A token for the tap alone, for this run only.
       - name: Mint a token for the tap
         id: tap-token
-        uses: actions/create-github-app-token@64ab729a6294000f5aa4a4bc0b73d1f32bc45510 # v3
+        uses: actions/create-github-app-token@f418cff399f7aef4c2f0ad47e25ca7a6abbdd6fc # v3
         with:
           app-id: ${{ secrets.PUBLIC_RELEASE_APP_ID }}
           private-key: ${{ secrets.PUBLIC_RELEASE_APP_KEY }}
@@ -379,7 +379,7 @@ jobs:
     permissions: {}
     steps:
       - name: Mint deploy-dispatch App token
-        uses: actions/create-github-app-token@64ab729a6294000f5aa4a4bc0b73d1f32bc45510 # v3
+        uses: actions/create-github-app-token@f418cff399f7aef4c2f0ad47e25ca7a6abbdd6fc # v3
         id: app-token
         with:
           app-id: ${{ secrets.DEPLOY_DISPATCH_APP_ID }}
